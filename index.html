@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5A Tattoo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">5A Tattoo</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-o-studio">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o studio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#eventos">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#portifolio">
+                            <i class="bi bi-easel me-1"></i>
+                            Portifólio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-studio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="Images/carousel/carousel1.jpg" alt="Imagem de Tatuador">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="Images/carousel/carousel2.jpg" alt="Imagem de Tatuagem">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="Images/carousel/carousel3.jpg" alt="Imagem de máquina de tatuar">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="Images/sobreOstudio.jpg" class="d-block w-100 rounded" alt="Foto da fachada do studio">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="text-colored">Sobre o studio</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias tempore a, ipsum 
+                                sapiente sint! Id in, nobis commodi quibusdam reprehenderit, obcaecati voluptate quae facere neque ex 
+                                voluptas laboriosam distinctio.
+                            </p>
+                            <h3 class="text-colored">Sore o tatuador</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias tempore a, ipsum 
+                                sapiente sint! Id in, nobis commodi quibusdam reprehenderit, obcaecati voluptate quae facere neque ex 
+                                voluptas laboriosam distinctio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored text-center">Nossos Eventos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="Images/eventos/eventosCafe.jpg" alt="Imagem de tatuada com café" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-colored fs-4">
+                            <i class="bi bi-cup-hot-fill"></i>
+                            Café e tattoo
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dignissimos magnam fugit beatae repudiandae 
+                            incidunt accusamus omnis provident, odit, eligendi molestias corporis sapiente aliquid repellat! 
+                            Placeat hic eaque minima dolorem.
+                        </p>
+                    </div>
+                    <div class="col md-4">
+                        <img src="Images/eventos/eventosFlash.jpg" alt="Imagem de casal tatuado" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-colored fs-4">
+                            <i class="bi bi-brush-fill"></i>
+                            Flash para casais
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dignissimos magnam fugit beatae repudiandae 
+                            incidunt accusamus omnis provident, odit, eligendi molestias corporis sapiente aliquid repellat! 
+                            Placeat hic eaque minima dolorem.
+                        </p>
+                    </div>
+                    <div class="col md-4">
+                        <img src="Images/eventos/eventosViajem.jpg" alt="Imagem de tatuador viajando" class="d-block w-100 rounded mb-2">
+                        <h3 class="text-colored fs-4">
+                            <i class="bi bi-bus-front-fill"></i>
+                            Tattoo and travel
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dignissimos magnam fugit beatae repudiandae 
+                            incidunt accusamus omnis provident, odit, eligendi molestias corporis sapiente aliquid repellat! 
+                            Placeat hic eaque minima dolorem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portifolio" class="pt-5 pb-5">
+            <div class="container" id="portifolio">
+                <div class="row">
+                    <h2 class="text-colored text-center mb-5">Meu portifólio</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-portifolio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#finalizados" class="fw-bold text-start text-colored-two nav-link active">Finalizados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#disponiveis" class="fw-bold text-start text-colored-two nav-link">Disponíveis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#autorais" class="fw-bold text-start text-colored-two nav-link">Autorais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#comerciais" class="fw-bold text-start text-colored-two nav-link">Comerciais</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="finalizados">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="disponiveis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="autorais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/autorais.jpg" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Black Works</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa2.png" alt="Imagem de asa tattoo 2">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa diamond</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="comerciais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/elefante.png" alt="Imagem de elefante tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Elefante Indiano</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="Images/portifolio/asa.png" alt="Imagem de asa tattoo">
+                                        <h5 class="text-colored-two fw-bold mt-2">Asa angel</h5>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored-two">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored-two">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored-two">Seu telefone (opicional)</label>
+                                <input type="tel" id="tel" class="form-control" name="tel">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored-two">Seu nome</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button class="btn fw-bold" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5"> 
+                        <div class="row">
+                            <h3 class="text-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="https://github.com/Albert5a" target="_blank">
+                                        <i class="bi bi-github text-colored-two"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="https://www.linkedin.com/in/albert5a/" target="_blank">
+                                        <i class="bi bi-linkedin text-colored-two"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored-two"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="text-colored fs-4">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Bootstrap nº 555, Bairro jQuery - Html Css - JS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="containre">
+            <p>
+                2022 &copy; 5A Tattoo - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

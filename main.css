@@ -1,0 +1,92 @@
+/*font-family: 'Berkshire Swash', cursive;
+font-family: 'Josefin Sans', sans-serif; */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover,
+.nav-portifolio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+
+#sobre-o-studio,
+#portifolio {
+    background-color: rgb(128, 128, 128);
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+}
+
+.text-colored {
+    color: rgb(0, 0, 0);
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.text-colored-two {
+    color: black;
+}
+
+#portifolio img {
+    height: 120px;
+}
+
+.nav-portifolio .nav-link.active,
+#contato button {
+    background-color: black;
+    color: #fff;
+}
+
+.nav-portifolio .nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
